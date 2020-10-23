@@ -1,0 +1,103 @@
+<div class="queens-container">
+  <div class="queens-board_container">
+    <table class="queens-board">
+      <tr>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+      </tr>
+      <tr>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+      </tr>
+      <tr>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+      </tr>
+      <tr>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+      </tr>
+      <tr>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+      </tr>
+      <tr>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+      </tr>
+      <tr>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+      </tr>
+      <tr>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+        <td class="queens-black_square"></td>
+        <td class="queens-white_square"></td>
+      </tr>
+    </table>
+  </div>
+  <div class="queens-controls">
+    <form>
+      <label for="initial_temperature">Initial Temperature</label><input type="text" name="initial_temperature" value="35.0" id="initial_temperature">
+      <label for="initial_stabilizer">Initial Stabilizer</label><input type="text" name="initial_stabilizer" value="35.0" id="initial_stabilizer">
+      <label for="cooling_factor">Cooling Factor</label><input type="text" name="cooling_factor" value="0.05" id="cooling_factor">
+      <label for="stabilizing_factor">Stabilizing Factor</label><input type="text" name="stabilizing_factor" value="1.005" id="stabilizing_factor">
+      <label for="freezing_temperature">Freezing Temperature</label><input type="text" name="freezing_temperature" value="0.0" id="freezing_temperature">
+    </form>
+    <p>
+      <input type="button" value="Solve it!" onclick="App.Start();" />
+    </p>
+    <p>
+      Play around with the parameters!
+    </p>
+  </div>
+</div>
+<div id="console"></div>
+<div id="graph"></div>

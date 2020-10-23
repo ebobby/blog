@@ -2,7 +2,7 @@
 layout: post
 title: "Lisping and the world ladder puzzle"
 date:  2012-04-18
-tags: [tech]
+tags: [programming]
 ---
 
 <img style="float: right" src="../assets/lisplogo_warning_256.png" />

@@ -1,0 +1,12 @@
+div.queens-container       { clear: both; width: 840px; margin: 0 auto; }
+div.queens-board_container { float: left; }
+table.queens-board         { border: solid 1px black; margin: 0 auto; }
+table.queens-board td      { width: 30px; height: 30px; }
+table.queens-board td img  { margin-left: auto; margin-right: auto; display: block; width: 28px; height: 28px }
+div.queens-controls input  { border: solid 1px black; margin: 0 auto; display: block; }
+div.queens-controls        { float: right;}
+div#console                { padding-top: 20px; text-align: center; clear: both; }
+div#graph                  { clear: both; }
+.queens-bordered           { border: solid 1px black; margin: 0 auto; display: block; }
+table.queens-board td.queens-white_square { background-color: white; }
+table.queens-board td.queens-black_square { background-color: black; }
