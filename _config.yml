@@ -16,7 +16,5 @@ sass:
     sass_dir: css
 
 navbar:
- - name: "Resume"
-   absolute-link: "/resume.pdf"
  - name: "About"
    absolute-link: "/"
