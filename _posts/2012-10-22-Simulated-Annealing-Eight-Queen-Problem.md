@@ -119,7 +119,7 @@ our criteria:
 3.  Worse solutions (regardless of “worseness”) have less chance to be
     accepted as temperature decreases.
 
-<img class="center" src="../assets/sa-probability.png" />
+<img class="center" src="/assets/sa-probability.png" />
 
 
 The larger the delta the worse the generated solution is compared to our

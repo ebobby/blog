@@ -5,7 +5,7 @@ date:  2012-05-20
 tags: [tech]
 ---
 
-<img style="float: left" src="../assets/beanie.png" />
+<img style="float: left" src="/assets/beanie.png" />
 
 I’ve been thinking recently about how hard it feels to contribute to an
 open source project and by that I don’t mean that open source makes it

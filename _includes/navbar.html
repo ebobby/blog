@@ -1,5 +1,5 @@
 <div class="navbar">
-  <a class="site-title" href="{{ site.url }}{{ site.baseurl}}/">
+  <a class="site-title" href="{{ site.url }}{{ site.baseurl}}/blog">
     {{ site.title }}
   </a>
 
@@ -11,7 +11,7 @@
       {% else %}
       {% assign x-url = site.url | append: site.baseurl | append: "/" | append: x.link %}
       {% endif %}
-      <a target="_blank" href="{{ x-url }}">{{ x.name }}</a>
+      <a href="{{ x-url }}">{{ x.name }}</a>
       {% if forloop.last == false %}/{% endif %}
     </li>
     {% endfor %}

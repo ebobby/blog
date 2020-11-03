@@ -32,7 +32,7 @@ To help me in this exercise I will use articles/tags schema as an
 example, given that problem the model will probably end up looking like
 this:
 
-<img class="center" src="../assets/classic-manytomany.png" />
+<img class="center" src="/assets/classic-manytomany.png" />
 
 We have our tables, articles and tags, and we use a third table to help
 us with the relationship, this is usually called **join table**,
@@ -166,7 +166,7 @@ This may sound a bit confusing so let me show you what I mean:
 
 ### Set schema
 
-<img class="center" src="../assets/set-manytomany.png" />
+<img class="center" src="/assets/set-manytomany.png" />
 
 #### What is a set?
 

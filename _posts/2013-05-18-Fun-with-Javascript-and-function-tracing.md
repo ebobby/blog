@@ -5,7 +5,7 @@ date:  2013-05-18
 tags: [programming]
 ---
 
-<img style="float: right" src="../assets/bigbug.jpg" />
+<img style="float: right" src="/assets/bigbug.jpg" />
 
 ## The problem
 

@@ -5,7 +5,7 @@ date:  2012-04-18
 tags: [programming]
 ---
 
-<img style="float: right" src="../assets/lisplogo_warning_256.png" />
+<img style="float: right" src="/assets/lisplogo_warning_256.png" />
 
 I want to talk about *Lisp* because so far I can say that I am really loving it and I will certainly be spending more time with it and learning about it.
 
@@ -97,7 +97,7 @@ a single character.
 For example, in a dictionary with english words of four characters, the word
 "home" has the following neighbors:
 
-<img class="center" src="../assets/home-nodes.png" />
+<img class="center" src="/assets/home-nodes.png" />
 
 Here's the code to find the neighbors of a word in our dictionary in Lisp:
 

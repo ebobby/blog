@@ -5,7 +5,7 @@ date:  2012-07-14
 tags: [programming]
 ---
 
-<img style="float: right" src="../assets/big-o.png" />
+<img style="float: right" src="/assets/big-o.png" />
 
 ### The good
 

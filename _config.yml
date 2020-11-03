@@ -10,11 +10,13 @@ footer_only_homepage: true
 profile-picture: assets/profile.png
 favicon_location: assets/favicon.png
 
-permalink: /:year-:month-:day-:title/
+permalink: /:year/:month/:day/:title/
 sass:
     style: compressed
     sass_dir: css
 
 navbar:
+ - name: "Tags"
+   absolute-link: "/tags"
  - name: "About"
    absolute-link: "/"
