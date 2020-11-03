@@ -1,12 +1,11 @@
 title: Francisco Soto
 author: Francisco Soto
 
-url: "https://blog.ebobby.org"
-paginate: 10
+url: "https://ebobby.org"
+paginate_path: "/blog/page:num/"
+paginate: 6
 
 footer_only_homepage: true
-footer_url: "https://github.com/pro-panda"
-footer_text: "Theme by pro-panda"
 
 profile-picture: assets/profile.png
 favicon_location: assets/favicon.png
@@ -18,6 +17,6 @@ sass:
 
 navbar:
  - name: "Resume"
-   absolute-link: "https://ebobby.org/resume.pdf"
+   absolute-link: "/resume.pdf"
  - name: "About"
-   absolute-link: "https://ebobby.org"
+   absolute-link: "/"
