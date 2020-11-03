@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lisping and the world ladder puzzle"
+title: "Lisping and the word ladder puzzle"
 date:  2012-04-18
 tags: [programming]
 ---
