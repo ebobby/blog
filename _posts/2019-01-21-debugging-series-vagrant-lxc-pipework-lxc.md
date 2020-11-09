@@ -56,7 +56,7 @@ the environment variable VAGRANT_LOG to DEBUG.
 
 Yeeey... fun.
 
-##Investigation
+## Investigation
 
 Apparently when we try to create our container, vagrant is failing to run a
 command while trying to set up private networks. We have the command that it's
