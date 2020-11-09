@@ -9,16 +9,16 @@ $max-width: 900px;
 $med-width: 600px;
 $small-width: 480px;
 
-@import url("https://fonts.googleapis.com/css?family=Ubuntu Mono:400,500");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
 
 // Basic
 body {
     margin: 0;
-    font-family: "Ubuntu Mono";
+    font-family: "Roboto";
     background-color: #FAFAFA;
     color: #141414;
     min-height: 100%;
-    font-size: 1.25em;
+    font-size: 1.2em;
 }
 a {
     text-decoration: none;
