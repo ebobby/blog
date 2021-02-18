@@ -124,7 +124,7 @@ body.page-template-page-fullsingle-me p {
 
 .fs-me {
     padding: 10vh 10vw;
-    overflow: hidden;
+    /*overflow: hidden;*/
     position: absolute;
     z-index: 1000; }
 @media (max-width: 500px) {
@@ -147,12 +147,12 @@ body.page-template-page-fullsingle-me p {
 .logo {
     font-size: 1.5em;
     font-weight: bolder;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 1 auto;
+    /*-webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;*/
     flex: 1 1 auto;
-    display: -webkit-box;
+    /*display: -webkit-box;
     display: -webkit-flex;
-    display: flex;
+    display: flex;*/
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -173,9 +173,9 @@ body.page-template-page-fullsingle-me p {
     -webkit-box-flex: 1;
     -webkit-flex: 1 1 auto;
     flex: 1 1 auto;
-    display: -webkit-box;
+    /*display: -webkit-box;
     display: -webkit-flex;
-    display: flex;
+    display: flex;*/
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -204,9 +204,9 @@ body.page-template-page-fullsingle-me p {
     -webkit-box-flex: 1;
     -webkit-flex: 1 1 auto;
     flex: 1 1 auto;
-    display: -webkit-box;
+    /*display: -webkit-box;
     display: -webkit-flex;
-    display: flex;
+    display: flex;*/
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
